@@ -1,0 +1,88 @@
+body {
+  background-color: #FFFFCC;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #660000;
+  border-bottom: 1px solid #660000;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Tangerine', cursive;
+  width: 100%;
+  height: 150px;
+}
+
+h1 {
+  /*position: relative;*/
+  font-size: 52px;
+  /*margin: 40px;*/
+  left: 10px;
+}
+
+img {
+  height: 100px;
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #660000;
+  font-size: 32px;
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards {
+  background-image: url(logo_1.png);
+  height: 275px;
+  width: 400px;
+  border: 2px solid #660000;
+  margin: 5px;
+}
+
+/*.cards:hover {
+  background-color: rgba(0, 0, 0, .7);
+}*/
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url();
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  height: 275px;
+  width: 400px;
+  border: 2px solid #660000;
+  margin: 5px;
+}
+
+
+
+
+.card-image {
+
+}
+
+/*#about {
+  position: relative;
+  right: 5%;
+
+}
+
+#contact {
+  position: relative;
+  left: 40%;
+
+}*/
